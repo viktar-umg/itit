@@ -4,14 +4,13 @@ import java.util.Iterator;
 
 public class BigStructure<T> implements Iterator<T>{
 
-	private Iterable<Iterator<T>> struct;//=new ArrayList<Iterable<T>>();
+	private Iterable<Iterator<T>> struct;
 	private Iterator<T> currentIt =null;
 	private Iterator<Iterator<T>> structIt =null;
 	
 	public void setStruct(Iterable<Iterator<T>> struct){
 		this.struct = struct;
 		structIt = struct.iterator();
-		
 	}
 	
 	@Override
