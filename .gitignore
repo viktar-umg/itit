@@ -6,3 +6,9 @@
 *.ear
 /bin
 /target
+test-output
+target
+.classpath
+.project
+.settings
+bin
