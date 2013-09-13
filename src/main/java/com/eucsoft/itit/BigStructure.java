@@ -45,12 +45,6 @@ public class BigStructure<T> implements Iterator<T>{
 	public void remove() {
 		throw new UnsupportedOperationException("Not Implemented!!!");
 		
-	}
-	
-	
-	
-	
-	
-	
+	}	
 
 }
