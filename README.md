@@ -1,4 +1,4 @@
 itit
 ====
 
-Iterate Iterators
+Example how to impltment Iterate Iterators in Java
